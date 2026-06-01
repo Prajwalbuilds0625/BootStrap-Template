@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        .hero-section {
+            background: url('./Images/imgi_10_bg_3.jpg') no-repeat center center/cover;
+            height: 100vh;
+            position: relative;
+            color: #fff;
+        }
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .btn-red {
+            background: #e50914;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">DAZKO</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Trainers</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Classes</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<!-- HERO SECTION -->
+<div class="hero-section">
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+        <h1 class="display-4 fw-bold">INCREASE YOUR <br> MUSCLE POWER</h1>
+        <p class="lead mt-3">
+            A small river named Duden flows by their place and supplies it with the necessary regelialia.
+        </p>
+
+        <a href="#" class="btn btn-red px-4 py-2 mt-3">TAKE A TOUR NOW →</a>
+    </div>
+</div>
+
+ <style>
+        .about-img img {
+            width: 100%;
+            object-fit: cover;
+        }
+        .about-title {
+            color: #ff0037;   /* red color like CROSSFIT */
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .big-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #001f3f;
+        }
+        ul li {
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+        ul li::marker {
+            color: #ff0037;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container py-5">
+    <div class="row align-items-center">
+
+        <!-- LEFT IMAGE -->
+        <div class="col-lg-6 about-img">
+            <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg" alt="Fitness Model">
+        </div>
+
+        <!-- RIGHT CONTENT -->
+        <div class="col-lg-6 ps-lg-5 mt-4 mt-lg-0">
+            
+            <p class="about-title">INFORMATION ABOUT US</p>
+
+            <h2 class="big-title">
+                DAZKO A <span style="color:#ff0037;">CROSSFIT</span> WORKOUT <br>
+                TRAINING CENTER
+            </h2>
+
+            <p class="mt-3 text-secondary">
+                Far far away, behind the word mountains, far from the countries Vokalia and 
+                Consonantia, there live the blind texts. Separated they live in Bookmarksgrove 
+                right at the coast of the Semantics, a large language ocean.
+            </p>
+
+            <ul class="mt-4">
+                <li>MEN FITNESS AND WORKOUT</li>
+                <li>WOMEN FITNESS AND WORKOUT</li>
+                <li>PERSONAL TRAININGS</li>
+            </ul>
+
+        </div>
+    </div>
+</div>
+
+ <style>
+        .stats-section {
+            background: linear-gradient(135deg, #0a2dd6 0%, #001b6a 100%);
+            padding: 60px 0;
+            color: white;
+            text-align: center;
+        }
+        .stats-box h1 {
+            font-size: 48px;
+            font-weight: 700;
+        }
+        .stats-box p {
+            margin: 0;
+            font-size: 15px;
+            opacity: 0.9;
+        }
+        .stats-wrapper {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- STATS SECTION -->
+<div class="stats-section mt-5">
+    <div class="container">
+        <div class="row text-center">
+
+            <div class="col-md-3 stats-box mb-4">
+                <h1>30+</h1>
+                <p>YEARS OF EXPERIENCED</p>
+            </div>
+
+            <div class="col-md-3 stats-box mb-4">
+                <h1>100+</h1>
+                <p>FITNESS TRAINERS</p>
+            </div>
+
+            <div class="col-md-3 stats-box mb-4">
+                <h1>310+</h1>
+                <p>BEST EQUIPMENTS</p>
+            </div>
+
+            <div class="col-md-3 stats-box mb-4">
+                <h1>10k+</h1>
+                <p>SATISFIED CLIENTS</p>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+ <style>
+        .feature-icon {
+            width: 110px;
+            height: 110px;
+            object-fit: contain;
+        }
+
+        .feature-box {
+            padding: 20px;
+        }
+
+        .divider {
+            border-right: 2px dashed #dcdcdc;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .divider {
+                border-right: none;
+                border-bottom: 2px dashed #dcdcdc;
+                margin-bottom: 25px;
+                padding-bottom: 25px;
+            }
+        }
+
+        .section-subtitle {
+            color: #ff2e53;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #082a4e;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- FEATURES SECTION -->
+<div class="container text-center py-5">
+
+    <!-- Section Heading -->
+    <p class="section-subtitle mb-1">JOIN US NOW</p>
+    <h2 class="section-title mb-5">
+        JOIN US OUR FREE WORKOUT <br>
+        TRAINING WITH <span style="color:#ff2e53;">DAZKO</span>
+    </h2>
+
+    <div class="row align-items-start">
+
+        <!-- Feature 1 -->
+        <div class="col-md-4 feature-box divider">
+            <img src="https://cdn-icons-png.flaticon.com/512/2964/2964514.png" class="feature-icon mb-3">
+            <h4 class="fw-bold text-uppercase" style="color:#082a4e;">FREE FITNESS <br> TRAINING</h4>
+            <p class="mt-3">
+                A small river named Duden flows by their place and supplies it with the necessary regeliialia.
+                It is a paradisematic country, in which roasted parts of sentences fly.
+            </p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="col-md-4 feature-box divider">
+            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048949.png" class="feature-icon mb-3">
+            <h4 class="fw-bold text-uppercase" style="color:#082a4e;">TONS OF CARDIO & <br> STRENGTH</h4>
+            <p class="mt-3">
+                A small river named Duden flows by their place and supplies it with the necessary regeliialia.
+                It is a paradisematic country, in which roasted parts of sentences fly.
+            </p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="col-md-4 feature-box">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" class="feature-icon mb-3">
+            <h4 class="fw-bold text-uppercase" style="color:#082a4e;">NO COMMENTMENT <br> MEMBERSHIPS</h4>
+            <p class="mt-3">
+                A small river named Duden flows by their place and supplies it with the necessary regeliialia.
+                It is a paradisematic country, in which roasted parts of sentences fly.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<style>
+        .class-card {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        .class-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            transition: 0.4s ease;
+        }
+
+        .class-card:hover img {
+            transform: scale(1.05);
+        }
+
+        .class-label {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background: #000c20;
+            color: #fff;
+            padding: 12px;
+            font-weight: 700;
+            text-align: center;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .section-subtitle {
+            color: #ff2e53;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-size: 32px;
+            font-weight: 800;
+            color: #082a4e;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- WORKOUT CLASSES SECTION -->
+<div class="container text-center py-5">
+
+    <!-- Heading -->
+    <p class="section-subtitle mb-1">OUR CLASSES</p>
+    <h2 class="section-title mb-4">
+        <span style="color:#ff2e53;">DAZKO</span> WORKOUT CLASSES
+    </h2>
+
+    <!-- Class Cards Row -->
+    <div class="row g-4">
+
+        <!-- Card 1 -->
+        <div class="col-md-4">
+            <div class="class-card">
+                <img src="https://images.pexels.com/photos/3837755/pexels-photo-3837755.jpeg" alt="Body Building">
+                <div class="class-label">BODY BUILDING</div>
+            </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="col-md-4">
+            <div class="class-card">
+                <img src="https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg" alt="Weight Lifting">
+                <div class="class-label">WEIGHT LIFTING</div>
+            </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="col-md-4">
+            <div class="class-card">
+                <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg" alt="Cardio">
+                <div class="class-label">CARDIO</div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- View All -->
+    <div class="mt-4">
+        <a href="#" style="color:#ff2e53; font-weight:600; letter-spacing:1px; text-decoration:none;">
+            VIEW ALL CLASSES →
+        </a>
+    </div>
+
+</div>
+
+  <style>
+        .pricing-box {
+            background: #fff;
+            padding: 40px 30px;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            transition: 0.3s ease;
+        }
+
+        .pricing-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+
+        .price {
+            font-size: 48px;
+            font-weight: 800;
+            color: #ff2e53;
+        }
+
+        .plan-title {
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 1px;
+            color: #0c2443;
+        }
+
+        .features li {
+            margin-bottom: 12px;
+            color: #555;
+        }
+
+        .features li::before {
+            content: "➜ ";
+            color: #ff2e53;
+            font-weight: bold;
+        }
+
+        .btn-red {
+            background: #ff2e53;
+            color: #fff;
+            border: none;
+            padding: 12px 30px;
+            width: 100%;
+            border-radius: 5px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .section-subtitle {
+            color: #ff2e53;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-size: 34px;
+            font-weight: 800;
+            color: #0b294e;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- PRICING SECTION -->
+<div class="container text-center py-5">
+
+    <!-- Title -->
+    <p class="section-subtitle">OUR PRICING</p>
+    <h2 class="section-title">
+        PRICING & <span style="color:#ff2e53;">PACKAGES</span>
+    </h2>
+
+    <!-- Pricing Row -->
+    <div class="row mt-5 g-4">
+
+        <!-- Basic Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box">
+                <p class="plan-title mb-1">BASIC PLAN</p>
+                <p class="price">$49</p>
+
+                <ul class="list-unstyled features mt-4">
+                    <li>Personal Trainer</li>
+                    <li>Convienient Time</li>
+                    <li>Special Class</li>
+                    <li>Group Training</li>
+                    <li>Free Fitness Traning</li>
+                </ul>
+
+                <button class="btn-red mt-3">GET STARTED</button>
+            </div>
+        </div>
+
+        <!-- Beginner Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box">
+                <p class="plan-title mb-1">BEGINNER PLAN</p>
+                <p class="price">$79</p>
+
+                <ul class="list-unstyled features mt-4">
+                    <li>Personal Trainer</li>
+                    <li>Convienient Time</li>
+                    <li>Special Class</li>
+                    <li>Group Training</li>
+                    <li>Free Fitness Traning</li>
+                </ul>
+
+                <button class="btn-red mt-3">GET STARTED</button>
+            </div>
+        </div>
+
+        <!-- Premium Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box">
+                <p class="plan-title mb-1">PREMIUM PLAN</p>
+                <p class="price">$109</p>
+
+                <ul class="list-unstyled features mt-4">
+                    <li>Personal Trainer</li>
+                    <li>Convienient Time</li>
+                    <li>Special Class</li>
+                    <li>Group Training</li>
+                    <li>Free Fitness Traning</li>
+                </ul>
+
+                <button class="btn-red mt-3">GET STARTED</button>
+            </div>
+        </div>
+
+        <!-- Ultimate Plan -->
+        <div class="col-md-3">
+            <div class="pricing-box">
+                <p class="plan-title mb-1">ULTIMATE PLAN</p>
+                <p class="price">$149</p>
+
+                <ul class="list-unstyled features mt-4">
+                    <li>Personal Trainer</li>
+                    <li>Convienient Time</li>
+                    <li>Special Class</li>
+                    <li>Group Training</li>
+                    <li>Free Fitness Traning</li>
+                </ul>
+
+                <button class="btn-red mt-3">GET STARTED</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- NEW SECTION OF SCHEDULES -->
+<div class="text-center my-5">
+    <p class="section-subtitle">SCHEDULES</p>
+    <h2 class="section-title">FITNESS <span>SCHEDULES</span></h2>
+</div>
+
+
+<div class="container">
+    <div class="table-responsive">
+        <table class="schedule-table">
+
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td class="time-col">8am-9am</td>
+                    <td>Body Building</td>
+                    <td>Weight Lifting</td>
+                    <td></td>
+                    <td>Yoga</td>
+                    <td>Aerobics</td>
+                    <td>Cycling</td>
+                    <td>Stretching</td>
+                </tr>
+
+                <tr>
+                    <td class="time-col">10am-11am</td>
+                    <td>Weight Lifting</td>
+                    <td>Body Building</td>
+                    <td>Cardio</td>
+                    <td>Yoga</td>
+                    <td>Aerobics</td>
+                    <td>Cycling</td>
+                    <td>Stretching</td>
+                </tr>
+
+                <tr>
+                    <td class="time-col">1pm-2pm</td>
+                    <td></td>
+                    <td>Weight Lifting</td>
+                    <td>Cardio</td>
+                    <td>Yoga</td>
+                    <td>Aerobics</td>
+                    <td>Cycling</td>
+                    <td>Stretching</td>
+                </tr>
+
+                <tr>
+                    <td class="time-col">3pm-5pm</td>
+                    <td>Aerobics</td>
+                    <td>Weight Lifting</td>
+                    <td>Cardio</td>
+                    <td>Yoga</td>
+                    <td>Body Building</td>
+                    <td></td>
+                    <td>Stretching</td>
+                </tr>
+
+                <tr>
+                    <td class="time-col">7pm-9pm</td>
+                    <td>Body Building</td>
+                    <td>Weight Lifting</td>
+                    <td>Cardio</td>
+                    <td></td>
+                    <td>Aerobics</td>
+                    <td>Cycling</td>
+                    <td>Stretching</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+</div>
+
+
+<!-- TESTIMONAL SECTION -->
+<section class="py-5 testimonial-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="section-tag">TESTIMONIAL</p>
+                <h2 class="section-title">HAPPY PEOPLE</h2>
+            </div>
+            <div class="row justify-content-center">
+                
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            </div>
+                        <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="./Images/imgi_17_person_1.jpg" alt="Roger Scott" class="profile-img me-3">
+                            <div>
+                                <h5 class="profile-name">ROGER SCOTT</h5>
+                                <p class="profile-title">MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            </div>
+                        <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="./Images/imgi_18_person_2.jpg" alt="Roger Scott" class="profile-img me-3">
+                            <div>
+                                <h5 class="profile-name">ROGER SCOTT</h5>
+                                <p class="profile-title">MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card">
+                        <div class="quote-icon">
+                            </div>
+                        <p class="testimonial-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="d-flex align-items-center mt-4">
+                            <img src="./Images/imgi_19_person_3.jpg" alt="Roger Scott" class="profile-img me-3">
+                            <div>
+                                <h5 class="profile-name">ROGER SCOTT</h5>
+                                <p class="profile-title">MARKETING MANAGER</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-3">
+                <span class="indicator-dot active"></span>
+                <span class="indicator-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 blog-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <p class="blog-tag">OUR BLOG</p>
+                <h2 class="blog-title">RECENT BLOG</h2>
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-6 mb-4">
+                    <div class="blog-post-card">
+                        <img src="./Images/imgi_29_gallery-5.jpg" class="img-fluid blog-img-large" alt="Woman lifting weights">
+                        <div class="blog-content">
+                            <p class="blog-meta"><span class="date">DEC. 20, 2020</span> <span class="comments">3 COMMENTS</span></p>
+                            <h3 class="post-title">REALLY GOOD WORKOUT, CAN FEEL IT WORKING</h3>
+                            <p class="post-excerpt">A small river named Duden flows by their place and supplies it with the necessary regelia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        
+                        <div class="col-12 mb-4">
+                            <div class="blog-post-card-small d-flex">
+                                <img src="./Images/imgi_21_image_2.jpg" class="blog-img-small me-4" alt="Gym equipment">
+                                <div class="blog-content-small">
+                                    <p class="blog-meta"><span class="date">DEC. 20, 2020</span> <span class="comments">3 COMMENTS</span></p>
+                                    <h3 class="post-title-small">REALLY GOOD WORKOUT, CAN FEEL IT WORKING</h3>
+                                    <p class="post-excerpt-small">A small river named Duden flows by their place and supplies it with the necessary regelia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                         <div class="col-12 mb-4">
+                            <div class="blog-post-card-small d-flex">
+                                <img src="./Images/imgi_22_image_3.jpg" class="blog-img-small me-4" alt="Woman lifting dumbbells">
+                                <div class="blog-content-small">
+                                    <p class="blog-meta"><span class="date">DEC. 20, 2020</span> <span class="comments">3 COMMENTS</span></p>
+                                    <h3 class="post-title-small">REALLY GOOD WORKOUT, CAN FEEL IT WORKING</h3>
+                                    <p class="post-excerpt-small">A small river named Duden flows by their place and supplies it with the necessary regelia.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> 
+    </section>
+
+    <footer class="footer-section py-5">
+        <div class="container">
+            <div class="row pb-5">
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <div class="footer-logo mb-3">
+                        <span class="logo-text">DAZKO</span>
+                        <span class="logo-subtitle">CROSSFIT & FITNESS</span>
+                        </div>
+                    <p class="footer-about-text">A small river named Duden flows by their place and supplies it with the necessary regelia.</p>
+                    <div class="social-icons mt-4">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="footer-heading">Explore</h5>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#"><i class="fas fa-angle-right"></i> About Us</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Trainers Team</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Awesome Classes</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Pricing Packages</a></li>
+                        <li><a href="#"><i class="fas fa-angle-right"></i> Latest News</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="footer-heading">Our Contacts</h5>
+                    <ul class="list-unstyled contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 203 Fake St. Mountain View, San Francisco, California, USA</li>
+                        <li><i class="fas fa-phone-alt"></i> +2 392 3929 210</li>
+                        <li><i class="fas fa-envelope"></i> info@yourdomain.com</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-gallery">
+                        <div class="gallery-item"><img src="./Images/imgi_24_bg_4.jpg" alt="Gallery 1" class="img-fluid"></div>
+                        <div class="gallery-item"><img src="./Images/imgi_27_gallery-3.jpg" alt="Gallery 2" class="img-fluid"></div>
+                        <div class="gallery-item"><img src="./Images/imgi_9_bg_1.jpg" alt="Gallery 3" class="img-fluid"></div>
+                        <div class="gallery-item"><img src="./Images/imgi_29_gallery-5.jpg" alt="Gallery 4" class="img-fluid"></div>
+                        <div class="gallery-item"><img src="./Images/imgi_22_image_3.jpg" alt="Gallery 5" class="img-fluid"></div>
+                        <div class="gallery-item"><img src="./Images/imgi_30_gallery-6.jpg" alt="Gallery 6" class="img-fluid"></div>
+                    </div>
+
+        <div class="container-fluid sub-footer mt-5 pt-3">
+            <div class="text-center">
+                <p class="copyright-text">
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fas fa-heart"></i> by <span class="colorlib-link">Colorlib</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
